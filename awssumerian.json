@@ -1,0 +1,59 @@
+{
+  "id": 1,
+  "title": "Scenario A",
+  "parent": null,
+  "children": [
+    {
+      "id": 2,
+      "title": "Option A of Scenario A",
+      "parent": 1,
+      "children": [
+        {
+          "id": 4,
+          "title": "Scenario B",
+          "parent": 2,
+          "children": [
+            {
+              "id": 5,
+              "title": "Option A of Scenario B",
+              "parent": 4,
+              "children": []
+            },
+            {
+              "id": 6,
+              "title": "Option B of Scenario B",
+              "parent": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Option B of Scenario A",
+      "parent": 1,
+      "children": [
+        {
+          "id": 7,
+          "title": "Scenario C",
+          "parent": 3,
+          "children": [
+            {
+              "id": 8,
+              "title": "Option A of Scenario C",
+              "parent": 7,
+              "children": []
+            },
+            {
+              "id": 9,
+              "title": "Option B of Scenario C",
+              "parent": 7,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
